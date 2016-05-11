@@ -1,0 +1,71 @@
+﻿Build started 02/04/2016 15:52:17.
+     1>Project "C:\Users\Paul\Documents\Visual Studio 2015\Projects\FinalYearProject\GamaGameEngine\GamaGameEngine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\GamaGameEngine.pdb" /Gd /TP /analyze- /errorReport:prompt AudioEngine.cpp AudioLoader.cpp Collision.cpp Manifold.cpp MusicStream.cpp Camera.cpp LogAndDebug.cpp GamaGameEngine.cpp GLSLProgram.cpp ImageLoader.cpp FileIOManager.cpp ParticleBatch.cpp ParticleSystem.cpp PerformanceTests.cpp PhysicsWorld.cpp ResourceManager.cpp RigidBody.cpp Shape.cpp SoundEffects.cpp Sprite.cpp SpriteBatch.cpp SpriteFont.cpp TextureCache.cpp AudioCache.cpp Window.cpp
+         AudioCache.cpp
+         TextureCache.cpp
+         SpriteFont.cpp
+     1>c:\users\paul\documents\visual studio 2015\projects\finalyearproject\gamagameengine\spritefont.cpp(99): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\paul\documents\visual studio 2015\projects\finalyearproject\gamagameengine\spritefont.cpp(109): warning C4244: '*=': conversion from 'float' to 'unsigned char', possible loss of data
+         SpriteBatch.cpp
+         Sprite.cpp
+         SoundEffects.cpp
+         RigidBody.cpp
+         ResourceManager.cpp
+         PhysicsWorld.cpp
+         PerformanceTests.cpp
+     1>c:\users\paul\documents\visual studio 2015\projects\finalyearproject\gamagameengine\performancetests.cpp(33): warning C4244: '=': conversion from 'ULONGLONG' to 'CHAR', possible loss of data
+         ParticleBatch.cpp
+         ImageLoader.cpp
+         GLSLProgram.cpp
+         LogAndDebug.cpp
+         Camera.cpp
+         MusicStream.cpp
+         AudioLoader.cpp
+         Generating Code...
+         Compiling...
+         Window.cpp
+         Shape.cpp
+         ParticleSystem.cpp
+         FileIOManager.cpp
+         GamaGameEngine.cpp
+         Manifold.cpp
+         Collision.cpp
+         AudioEngine.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\Paul\Documents\Visual Studio 2015\Projects\FinalYearProject\Debug\GamaGameEngine.lib" /NOLOGO Debug\AudioEngine.obj
+         Debug\AudioLoader.obj
+         Debug\Clock.obj
+         Debug\Collision.obj
+         Debug\Manifold.obj
+         Debug\MusicStream.obj
+         Debug\Camera.obj
+         Debug\LogAndDebug.obj
+         Debug\GamaGameEngine.obj
+         Debug\GLSLProgram.obj
+         Debug\ImageLoader.obj
+         Debug\InputManager.obj
+         Debug\FileIOManager.obj
+         Debug\ParticleBatch.obj
+         Debug\ParticleSystem.obj
+         Debug\PerformanceTests.obj
+         Debug\PhysicsWorld.obj
+         Debug\picoPNG.obj
+         Debug\ResourceManager.obj
+         Debug\RigidBody.obj
+         Debug\Shape.obj
+         Debug\SoundEffects.obj
+         Debug\Sprite.obj
+         Debug\SpriteBatch.obj
+         Debug\SpriteFont.obj
+         Debug\TextureCache.obj
+         Debug\FrameRateManager.obj
+         Debug\AudioCache.obj
+         Debug\Window.obj
+         GamaGameEngine.vcxproj -> C:\Users\Paul\Documents\Visual Studio 2015\Projects\FinalYearProject\Debug\GamaGameEngine.lib
+     1>Done Building Project "C:\Users\Paul\Documents\Visual Studio 2015\Projects\FinalYearProject\GamaGameEngine\GamaGameEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:38.82
